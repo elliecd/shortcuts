@@ -31,7 +31,7 @@ oExcel.Quit
 
 '* this part reads the CSV file to grab the contents'
 '* http://www.tek-tips.com/viewthread.cfm?qid=1231007'
-
+        
 dim fs,objTextFile
 set fs=CreateObject("Scripting.FileSystemObject")
 dim arrStr
